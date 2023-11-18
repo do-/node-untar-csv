@@ -1,0 +1,49 @@
+{
+  "name": "untar-csv",
+  "version": "1.0.0",
+  "description": "Read a tar of multiple csv files as a stream of objects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-/node-untar-csv.git"
+  },
+  "keywords": [
+    "csv",
+    "tar",
+    "stream"
+  ],
+  "files": [
+    "/lib",
+    "/badges"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test-ci": "jest --ci --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "coverageReporters": [
+      "clover",
+      "json",
+      "lcov",
+      "text",
+      "json-summary"
+    ],
+    "verbose": false,
+    "testPathIgnorePatterns": [
+      "/__tests__/data",
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "author": "Dmitry Ovsyanko",
+  "license": "MIT",
+  "dependencies": {
+    "csv-events": "^0.0.21",
+    "tar-stream": "^3.1.6"
+  }
+}
