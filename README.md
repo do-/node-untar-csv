@@ -19,7 +19,7 @@ const reader = TarCsvReader ({
 //  delimiter: ',',
 //  skip: 0,           // header lines
 //  fileNumField: '#', // how to name the file # property
-//  rowNumField: '#',  // how to name the line # property
+//  rowNumField: '##',  // how to name the line # property
 //  empty: null,
     columns: ['id', 'name'],
 })
@@ -40,6 +40,6 @@ Most options are effectively passed to [CSVReader](https://github.com/do-/node-c
 |`columns`| |Array of column definitions|
 |`delimiter`|`','`|Column delimiter|
 |`skip`|`0`|Number of header lines to ignore|
-|`fileNumField` | `null` | The name of the file # property (null for no numbering)
-|`rowNumField` | `null` | The name of the line # property (null for no numbering)
+|`fileNumField` | `null` | The name of the file # property (nullÂ for no numbering)
+|`rowNumField` | `null` | The name of the line # property (nullÂ for no numbering)
 |`empty`|`null`|The `value` corresponding to zero length cell content|
