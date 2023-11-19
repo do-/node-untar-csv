@@ -1,6 +1,6 @@
 {
   "name": "untar-csv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read a tar of multiple csv files as a stream of objects",
   "main": "index.js",
   "repository": {
@@ -43,7 +43,7 @@
   "author": "Dmitry Ovsyanko",
   "license": "MIT",
   "dependencies": {
-    "csv-events": "^0.0.22",
+    "csv-events": "^0.0.23",
     "tar-stream": "^3.1.6"
   }
 }
