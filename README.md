@@ -1,7 +1,7 @@
 ![workflow](https://github.com/do-/node-untar-csv/actions/workflows/main.yml/badge.svg)
 ![Jest coverage](./badges/coverage-jest%20coverage.svg)
 
-`untar-csv` is a node.js library for reading contents of a [tar](https://en.wikipedia.org/wiki/Tar_(computing)) containing multiple similarly structured [CSV](https://datatracker.ietf.org/doc/html/rfc4180) files as a single [stream](https://nodejs.org/docs/latest/api/stream.html) of objects.
+`untar-csv` is a node.js library for reading the contents of a [tar](https://en.wikipedia.org/wiki/Tar_(computing)) containing multiple similarly structured [CSV](https://datatracker.ietf.org/doc/html/rfc4180) files as a single [stream](https://nodejs.org/docs/latest/api/stream.html) of objects.
 
 # Installation
 ```bash
