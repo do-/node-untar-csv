@@ -11,11 +11,12 @@ test ('pipe', async () =>  {
 
 	const reader = new TarCsvReader ({
 		columns: ['id', 'name'],
+		delimiter: ';',
 		rowNumField: 'ROW_NUM',
 		fileNumField: 'FILE_NUM',
 	})
 
-	const src = Path.join (__dirname, 'data', 'roles.tar')
+	const src = Path.join (__dirname, 'data', 'semi-colon.tar')
 
 	const a = []
 
